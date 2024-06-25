@@ -15,6 +15,7 @@ app.get("/", (req, res) => {
 // routes
 app.use("/api/products", productRoute);
 
+// database connection
 mongoose
   .connect(
     "mongodb+srv://rakin992raj:Xgm5spmXDp6k8TwH@backenddb.t5nuxlz.mongodb.net/CRUD-API?retryWrites=true&w=majority&appName=BackendDB"
